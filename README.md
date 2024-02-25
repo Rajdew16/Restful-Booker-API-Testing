@@ -26,6 +26,30 @@ To run project, run the following command
   mvn test
 ```
 
+To run project with tags, run the following command
+
+```bash
+  mvn test -Dcucumber.filter.tags="@Regression"
+```
+
+For create booking,
+
+```bash
+  mvn test -Dcucumber.filter.tags="@CreateBooking"
+```
+
+For update booking,
+
+```bash
+  mvn test -Dcucumber.filter.tags="@UpdateBooking"
+```
+
+For delete booking,
+
+```bash
+  mvn test -Dcucumber.filter.tags="@DeleteBooking"
+```
+
 
 ## Report
 
