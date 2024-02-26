@@ -8,7 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src\\test\\java\\booker\\featureFile",
 				glue = {"booker.stepdefinations" , "booker.hooks"},
-				plugin = {"pretty","html:target\\index.html"})
+				plugin = {"pretty","html:target\\index.html",
+						"json:target\\jsonReports\\report.json"})
 public class TestRunner {
 
 }
