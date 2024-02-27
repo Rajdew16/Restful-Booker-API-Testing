@@ -46,6 +46,13 @@ For delete booking,
   mvn test -Dcucumber.filter.tags="@DeleteBooking"
 ```
 
+## Maven Cucumber Report
+
+For generating maven cucumber report, run following command in terminal at project level/path,
+
+```bash
+  mvn test verify
+```
 
 ## Report
 
